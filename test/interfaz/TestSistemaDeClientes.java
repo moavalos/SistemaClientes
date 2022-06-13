@@ -47,7 +47,7 @@ public class TestSistemaDeClientes {
 	@Test
 	public void queSePuedanIncorporarDistintosClientes() {
 		Empresa actual = new Empresa("Telecomunications");
-		actual.agregarCliente(new ClienteTelefonia(1000, "Camila", "11", "63544437"));
+		actual.agregarCliente(new ClienteTelefonia(1000, "Amanda", "11", "63544437"));
 		actual.agregarCliente(new ClienteTelefonia(1001, "Natalia", "11", "7777237"));
 		actual.agregarCliente(new ClienteCable(1002, "Jorge", "46546546777788"));
 		actual.agregarCliente(new ClienteTelefonia(1003, "Lucrecia", "23", "63888837"));
